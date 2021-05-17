@@ -1,0 +1,201 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  clear: both;
+}
+
+body {
+  background-color: #c3cfe2;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.socialmedia-buttons {
+  width: 50px;
+  position: fixed;
+  margin-top: 200px;
+}
+
+.blog {
+  background-color: #e17b77;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 600px;
+  padding: 5px;
+}
+
+.blog__img {
+  height: 25px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.blog__link {
+  color: white;
+  position: absolute;
+  padding-top: 15px;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.blog:hover {
+  -webkit-transform: translate(-180px);
+          transform: translate(-180px);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.twitter {
+  background-color: #00aced;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 600px;
+  padding: 5px;
+}
+
+.twitter:hover {
+  -webkit-transform: translate(-160px);
+          transform: translate(-160px);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  width: 300px;
+}
+
+.twitter__img {
+  height: 25px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.twitter__link {
+  color: white;
+  position: absolute;
+  margin-top: 15px;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.linkedin {
+  background-color: #007bb6;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 600px;
+  padding: 5px;
+}
+
+.linkedin:hover {
+  -webkit-transform: translate(-180px);
+          transform: translate(-180px);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  width: 300px;
+}
+
+.linkedin__img {
+  height: 25px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.linkedin__link {
+  position: absolute;
+  color: white;
+  margin-top: 15px;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.facebook {
+  background-color: #3b5998;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 600px;
+  padding: 5px;
+}
+
+.facebook:hover {
+  -webkit-transform: translate(-180px);
+          transform: translate(-180px);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  width: 300px;
+}
+
+.facebook__img {
+  height: 25px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.facebook__link {
+  position: absolute;
+  color: white;
+  margin-top: 15px;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.github {
+  background-color: black;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 600px;
+  padding: 5px;
+}
+
+.github:hover {
+  -webkit-transform: translate(-180px);
+          transform: translate(-180px);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  width: 300px;
+}
+
+.github__img {
+  height: 25px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.github__link {
+  position: absolute;
+  color: white;
+  margin-top: 15px;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
